@@ -72,7 +72,7 @@ def comment_list(request, fk):
 @csrf_exempt
 def comment_detail(request, pk):
     """
-    Retrieve, update or delete a books.
+    Retrieve, update or delete a comments.
     """
     try:
         comment = Comment.objects.get(pk=pk)

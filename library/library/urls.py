@@ -6,4 +6,5 @@ urlpatterns = [
     path('book/<int:pk>/', views.book_detail),
     path('book/<int:fk>/comments', views.comment_list),
     path('comment/<int:pk>', views.comment_detail),
+    path('', views.php_index),
 ]
